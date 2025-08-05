@@ -225,11 +225,11 @@ save_option.place(x=140, y=150)
 read_option = tk.Button(main, text="Read Password", command=read_password)
 read_option.place(x=150, y=180)
 
-image_path = "grafika1.png"
-image = Image.open(image_path)
-resized_image = image.resize((350, 300))
-photo = ImageTk.PhotoImage(resized_image)
-image_label = tk.Label(main, image=photo)
-image_label.place(x=25, y=225)
+# image_path = "grafika1.png"
+# image = Image.open(image_path)
+# resized_image = image.resize((350, 300))
+# photo = ImageTk.PhotoImage(resized_image)
+# image_label = tk.Label(main, image=photo)
+# image_label.place(x=25, y=225)
 
 main.mainloop()
